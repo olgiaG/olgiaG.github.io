@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "FN";
+    src: url(Fonts/JumboSale\ Trial.otf);
+}
+@font-face {
+    font-family: "YH";
+    src: url(Fonts/ClassicalDiary-Regular\ Demo.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "";
+    box-sizing: border-box;
+}
+body {
+    background-image: url(Ressurser/fnbackstnd.png);
+    background-size: cover;
+}
+.app {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    border: solid;
+    box-shadow: 8px 8px 11px black;
+}
+h2 {
+    font-family: "YH";
+}
+.app h1{
+    font-weight: 25px;
+    color: #222222;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-size: 9pt;
+    width: 30%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.btn:target{
+    background-color: red;
+}
+
+.btn:hover{
+    background: #000000;
+    color: #fff;
+}
+
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+
+h1 {
+    font-family: "FN";
+}
+h2 {
+    text-align: center;
+}
+
